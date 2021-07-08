@@ -1,0 +1,16 @@
+#!/bin/env python3
+import random
+
+randomnumber = random.randrange(1, 10)
+notGuessed = True
+while notGuessed:
+    guess = int(input("guess the number "))
+    if guess == randomnumber:
+        print("you win")
+        notGuessed = False
+
+    elif guess < randomnumber:
+        print("guess too low")
+
+    else:
+        print("guess too high")

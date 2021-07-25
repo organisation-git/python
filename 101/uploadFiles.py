@@ -2,6 +2,8 @@
 import os
 import dropbox
 
+accesskey = ''
+
 
 class TransferData():
     def __init__(self, accesskey):
@@ -29,7 +31,6 @@ class TransferData():
 
 
 def main():
-    accesskey = '02TK94UVyBoAAAAAAAAAAQaQ1yQ1ZoqTtodhY3aUY5GEEcc4CJmWraRSqDbkk5TZ'
 
     data = TransferData(accesskey)
 
